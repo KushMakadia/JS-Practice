@@ -8,4 +8,6 @@ accEmail="heloo@js.com";
 accPassword="pass@123";
 accCity="Ahmedabad";
 
+// var has functional and block issue - prefer not to use
+
 console.table([accEmail,accPassword,accId,accCity]);
