@@ -11,4 +11,10 @@ accCity="Ahmedabad";
 
 // var has functional and block issue - prefer not to use
 
-console.table([accEmail,accPassword,accId,accCity,accState]);
+// console.table([accEmail,accPassword,accId,accCity,accState]);
+
+let isLoggedIn="kush"   // -> true
+// let isLoggedIn=""    -> false
+// let isLoggedIn= 1    -> true ; >1 -> true   ; <1 -> true ; only 0=false
+let check = Boolean(isLoggedIn)
+console.log(check);
