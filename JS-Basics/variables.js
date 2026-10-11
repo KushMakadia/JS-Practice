@@ -18,3 +18,8 @@ let isLoggedIn="kush"   // -> true
 // let isLoggedIn= 1    -> true ; >1 -> true   ; <1 -> true ; only 0=false
 let check = Boolean(isLoggedIn)
 console.log(check);
+
+
+const no =1000000
+console.log(no.toLocaleString('en-US'));
+console.log(no.toLocaleString('en-IN'));
